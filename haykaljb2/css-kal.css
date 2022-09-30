@@ -1,0 +1,1060 @@
+<html>
+ <head></head>
+ <body>
+  <pre style="word-wrap: break-word; white-space: pre-wrap;">body {
+  background: #043e3a;
+  color: #2ba39b;
+  font-family: "Helvetica Neue", Helvetica, STHeiTi, Arial, sans-serif;
+  margin: 0
+}
+
+
+.appalexhdiprem {
+  background: #043e3a;
+  background-size: 100% 100%;
+  position: relative;
+  margin: 0 auto;
+  max-width: 411px;
+  height: auto
+}
+
+.containeralexhdi {
+  display: flow-root
+}
+
+.headermarsyahdi {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background-color: #136a62;
+  z-index: 3
+}
+
+.kiriheadermarsyahdi {
+  margin: 5px 10px
+}
+
+.kiriheadermarsyahdi img {
+  width: 40px;
+  height: 40px;
+  border-radius: 5px
+}
+
+.kananheadermarsyahdi {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  margin: 5px 10px
+}
+
+.loginalexmarsya {
+  margin-right: 20px;
+  background: #094844;
+  padding: 0 10px;
+  border-radius: 10px;
+  border: 1px solid #69c9b8;
+  font-size: 17px
+}
+
+.loginalexmarsya p {
+  margin-block: 0;
+  line-height: 25px;
+  text-align: center;
+  font-weight: 600
+}
+
+.rulesalexmarsya {
+  background: #094844;
+  padding: 0 10px;
+  border-radius: 10px;
+  border: 1px solid #69c9b8;
+  font-size: 17px
+}
+
+.rulesalexmarsya p {
+  margin-block: 0;
+  line-height: 25px;
+  text-align: center;
+  font-weight: 600
+}
+
+.banneralexhdi {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center
+}
+
+.w3-display-container {
+  width: 300px;
+  max-width: 380px
+}
+
+.w3-display-container img {
+  width: 100%;
+  display: none;
+  border-radius: 10px;
+  border: 3px solid #309e98
+}
+
+.w3-display-bottommiddle {
+  width: 300px;
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  top: 200px
+}
+
+.w3-display-bottommiddle span {
+  height: 13px;
+  width: 13px;
+  background: 0 0;
+  border: 1px solid #8fd5d5;
+  border-radius: 50%;
+  margin: 0 10px
+}
+
+.w3-white {
+  background: #8fd5d5 !important
+}
+
+.arrowalexbanner {
+  position: absolute;
+  top: 125px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between
+}
+
+.itemarrowalex {
+  height: 30px;
+  width: 30px;
+  background: #44c4af
+}
+
+.kiriarrow {
+  clip-path: polygon(100% 0, 20% 50%, 100% 100%);
+  margin-left: 10px
+}
+
+.kananarrow {
+  clip-path: polygon(0 0, 0 100%, 80% 50%);
+  margin-right: 6px
+}
+
+.kiriarrow:hover {
+  background: #128b8b
+}
+
+.kananarrow:hover {
+  background: #128b8b
+}
+
+.menuboxalexhdi {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0
+}
+
+.kiriitemmenualexhdi {
+  clip-path: polygon(0 0, 80% 0, 100% 100%, 0 100%);
+  background: #028989;
+  color: #094c4c;
+  width: 20%;
+  padding: 0 20px;
+  font-weight: 600
+}
+
+.kiriitemmenualexhdi p {
+  font-size: 18px;
+  margin-block: 0;
+  padding: 5px 0
+}
+
+.kiriitemmenualexhdi p span {
+  font-size: 17px
+}
+
+.imageitemmenualexhdi img {
+  max-width: 100px;
+  width: 100%
+}
+
+.kananitemmenualexhdi {
+  clip-path: polygon(20% 0, 100% 0, 100% 100%, 0 100%);
+  background: #028989;
+  color: #094c4c;
+  width: 20%;
+  padding: 0 20px;
+  font-weight: 600;
+  text-align: right
+}
+
+.kananitemmenualexhdi p {
+  font-size: 18px;
+  margin-block: 0;
+  padding: 5px 0
+}
+
+.kananitemmenualexhdi p span {
+  font-size: 17px
+}
+
+.activemenualex {
+  background: #8fd5d5;
+  color: #0d7c7c
+}
+
+.boxisialexmarsya {
+  padding: 15px
+}
+
+.boxclaimalexmarsyahdi {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 4em
+}
+
+.itemclaimhdialex {
+  background: #128b8b;
+  padding: 7px 5px;
+  border: 2px solid #79bfbf;
+  border-radius: 5px;
+  margin-bottom: 15px
+}
+
+.claimimgalex {
+  width: 100px;
+  height: 100px;
+  position: relative
+}
+
+.claimimgalex img {
+  width: 100px;
+  height: 100px;
+  background: #0d7575
+}
+
+.boxinfoalex {
+  position: absolute;
+  z-index: 2;
+  bottom: 0;
+  background: #043e3a6e;
+  text-align: center;
+  font-size: 15px;
+  display: none
+}
+
+.itemclaimhdialex button {
+  background-color: #67a309;
+  background-image: linear-gradient(0deg, #67a309 0, #c7ee4c 100%);
+  color: #268707;
+  border: none;
+  width: 100%;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 10px;
+  line-height: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 1px 0 #1a5806;
+  outline: 0
+}
+
+.footeralexclaim {
+  background: #44c4af;
+  color: #017575;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+  left: 0;
+  bottom: 0;
+  border-top: 2px solid #128b8b
+}
+
+.kirialexfooter {
+  background: #043e3a;
+  width: 30%;
+  clip-path: polygon(0 0, 85% 0, 100% 100%, 0 100%)
+}
+
+.itemmarsyafoot {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  font-size: 19px;
+  margin-left: 20px
+}
+
+.itemmarsyafoot img {
+  width: 40px;
+  height: 40px
+}
+
+.kananalexfooter {
+  margin-right: 15px
+}
+
+.itemalexfoot {
+  background: #136a62;
+  color: #44c4af;
+  padding: 3px 10px;
+  border-radius: 10px;
+  letter-spacing: .4px;
+  margin-bottom: 5px
+}
+
+.contmarsyafafa {
+  background: url(https://rawcdn.githack.com/jefanya14/higgsv13/007ac8526ff1bac0095a6ef4693432159a3b3d62/fafa-alex.png) no-repeat center;
+  background-size: 100% 100%;
+  height: 193px;
+  padding: 39px 25px 10px
+}
+
+.boxalexfafa {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  height: 205px;
+  overflow-x: hidden
+}
+
+.itemalexfafa {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  height: 200px;
+  overflow: hidden
+}
+
+.imgalexfafa img {
+  width: 66px;
+  height: 66px;
+  border: 1px solid #e3ab08
+}
+
+.footmarsyaspin {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  z-index: 2;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #e09a29;
+  background-image: linear-gradient(180deg, #e09a29 0, #c45f0e 100%);
+  padding: 5px 0
+}
+
+.kirialexspinfoot {
+  margin: 0 10px
+}
+
+.ucapanspinalex {
+  background-color: #c7407a;
+  background-image: linear-gradient(180deg, #c7407a 0, #600a83 100%);
+  color: #fbe311;
+  font-size: 16px;
+  padding: 0 15px;
+  text-align: center;
+  border: 2px solid #ffe782;
+  border-radius: 10px;
+  box-shadow: inset 0 2px 7px 0 #583c35
+}
+
+.ucapanspinalex span {
+  line-height: 40px
+}
+
+.tengahalexspinfoot {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  width: 150px
+}
+
+.maxbetspinmarsya {
+  height: 30px;
+  width: 30px;
+  color: #572116;
+  padding: 2px 8px;
+  border-radius: 3px;
+  text-align: center;
+  background-color: #ffdacd;
+  background-image: linear-gradient(180deg, #b5998f 0, #a66157 100%);
+  font-weight: 600;
+  margin-bottom: 5px;
+  box-shadow: 0 1px 1px 0 #611603
+}
+
+.maxbetspinmarsya span {
+  font-size: 15px
+}
+
+.dotactivealex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  font-size: 11px
+}
+
+.dotactivealex span {
+  color: #27ff00;
+  font-size: 19px;
+  line-height: 2px
+}
+
+.jumlahbetalexspin {
+  background: #611603;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  border-radius: 10px
+}
+
+.plusalexbet {
+  background-color: #ffd3c7;
+  background-image: linear-gradient(180deg, #ffd3c7 0, #9f5a4a 100%);
+  color: #5d2317;
+  width: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  border-radius: 10px 0 0 10px;
+  font-size: 25px;
+  padding: 2px 3px 2px 3px
+}
+
+.pluskananalex {
+  border-radius: 0 10px 10px 0;
+  padding: 2px 3px 2px 3px
+}
+
+.valuebetalex {
+  color: #fcd396;
+  text-align: center;
+  margin-block: 4px
+}
+
+.valuebetalex label {
+  font-size: 10px
+}
+
+.buttonspinalexfafa {
+  margin: 0 10px
+}
+
+.btnspinmarsyafafa button {
+  background-color: #5afc59;
+  background-image: linear-gradient(180deg, #47cd46 0, #20620f 100%);
+  color: #fff288;
+  border: 1px solid #611603;
+  padding: 5px 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  border-radius: 20px;
+  outline: 0
+}
+
+.btnspinmarsyafafa button label {
+  font-size: 23px;
+  text-shadow: 1px 1px #000;
+  font-weight: 600;
+  letter-spacing: 1px
+}
+
+.btnspinmarsyafafa button span {
+  color: #fff
+}
+
+.deactivate {
+  background-color: #967d76 !important;
+  background-image: linear-gradient(180deg, #fdbcab 0, #543128 100%) !important;
+  color: #fff !important;
+  filter: saturate(.5)
+}
+
+.notifalexfafa {
+  position: absolute;
+  right: 10px;
+  top: 175px;
+  background: #d98b22;
+  color: #611603;
+  font-size: 17px;
+  z-index: 2;
+  border-radius: 10px 10px 10px 20px;
+  clip-path: polygon(100% 0, 100% 14%, 100% 37%, 100% 80%, 87% 100%, 73% 80%, 21% 80%, 0 80%, 0 35%, 0 0)
+}
+
+.marsyaalexfafa {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  padding: 5px 5px 20px;
+  align-items: flex-end
+}
+
+.marsyaalexfafa label {
+  text-align: right;
+  font-size: 20px;
+  font-weight: 600;
+  border: 1px solid #611603;
+  padding: 0 3px;
+  border-radius: 5px
+}
+
+.trueidalexhdi {
+  background: #0000005e;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 2
+}
+
+.boxtrueidalex {
+  margin: 61% auto;
+  background: url(https://static.neptunegame.com/images/website/pup_recharge.png) no-repeat center;
+  background-size: 100% 100%;
+  padding: 20px;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap
+}
+
+.ucapantrueidalex {
+  text-align: center;
+  color: #d2d17c;
+  font-size: 18px
+}
+
+.inputidalexhdi {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px
+}
+
+.inputidalexhdi input {
+  background: #2ea5a5;
+  font-size: 17px;
+  padding: 0 10px;
+  width: 175px;
+  line-height: 35px;
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px;
+  outline: 0
+}
+
+.alertalex {
+  margin-top: 10px;
+  margin-bottom: 10px
+}
+
+.alertalex span {
+  color: #fe662a;
+  display: none
+}
+
+.buttonalexid {
+  text-align: center
+}
+
+.buttonalexid button {
+  background-color: #fbe751;
+  background-image: linear-gradient(180deg, #fbe751 0, #e29600 100%);
+  color: #974d06;
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+  font-style: italic;
+  line-height: 30px;
+  padding: 0 20px;
+  border-radius: 9px 9px 9px 9px;
+  box-shadow: 1px 1px 1px 0 #000;
+  outline: 0
+}
+
+.chooseloginalexmarsya {
+  background: #0000005e;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 2
+}
+
+.boxloginalex {
+  margin: 61% auto;
+  background: url(https://static.neptunegame.com/images/website/pup_recharge.png) no-repeat center;
+  background-size: 100% 100%;
+  padding: 20px;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  text-align: center
+}
+
+.ucpanloginalex {
+  text-align: center;
+  color: #d2d17c;
+  font-size: 18px
+}
+
+.pilihanloginalex {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px
+}
+
+.pilihanloginalex img {
+  height: 50px;
+  margin-bottom: 5px
+}
+
+.buttoncloseloginalex {
+  margin-top: 15px
+}
+
+.buttoncloseloginalex button {
+  color: #0d6300;
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+  font-style: italic;
+  line-height: 35px;
+  padding: 0 25px;
+  border-radius: 9px 9px 9px 9px;
+  outline: 0;
+  background-color: #dbf670;
+  background-image: linear-gradient(180deg, #dbf670 0, #77b30a 100%);
+  box-shadow: inset 0 -3px 6px 0 #dbf670
+}
+
+.rulesalexhdi {
+  background: #0000005e;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 2
+}
+
+.boxrulesalexhdi {
+  margin: 61% auto;
+  background: url(https://static.neptunegame.com/images/website/pup_recharge.png) no-repeat center;
+  background-size: 100% 100%;
+  padding: 20px;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  text-align: center
+}
+
+.isirulesalex {
+  align-items: center;
+  padding: 0 20px;
+  text-align: left
+}
+
+.isirulesalex span {
+  display: list-item;
+  color: #40b9b9;
+  margin-bottom: 15px
+}
+
+.hadiahspinalexfafa {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #0000009e;
+  z-index: 1
+}
+
+.boxhadiahspinalex {
+  padding: 20px;
+  width: 80%;
+  margin: 64% auto;
+  text-align: center
+}
+
+.imagehadiahalex img {
+  width: 270px
+}
+
+.ucapanalexhadiahhdi span {
+  color: #fabe00;
+  font-weight: bolder;
+  font-size: 35px;
+  font-family: fangsong;
+  text-shadow: 2px 2px 0 #b31809
+}
+
+.contpengunjungalex {
+  margin: 50% auto;
+  background: url(https://raw.githubusercontent.com/jefanya14/jefanya14/main/login_game.png) no-repeat center;
+  background-size: 100%;
+  padding: 20px;
+  width: 80%
+}
+
+.formpengunjungalex {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  padding-top: 70px
+}
+
+.formpengunjungalex input {
+  font-size: 19px;
+  line-height: 35px;
+  background: #54231a;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  color: #ffd479;
+  outline: 0
+}
+
+.formpengunjungalex input::-webkit-input-placeholder {
+  color: #e1b57d
+}
+
+.formpengunjungalex input::-moz-placeholder {
+  color: #e1b57d
+}
+
+.formpengunjungalex input:-ms-input-placeholder {
+  color: #e1b57d
+}
+
+.formpengunjungalex input:-moz-placeholder {
+  color: #e1b57d
+}
+
+.formpengunjungalex button {
+  background: url(https://sdomino.boxiangyx.com/images/website/webShop/exchange_ok.png) no-repeat center;
+  background-size: 100% 100%;
+  width: 96px;
+  height: 32px;
+  border: none;
+  margin-bottom: 23px
+}
+
+.closepengunjungalex {
+  position: absolute;
+  right: 26px;
+  top: 38.3%
+}
+
+.closinnih {
+  width: 43px;
+  height: 43px
+}
+
+.alertpg {
+  font-size: 11px;
+  color: #e1b57d;
+  display: none
+}
+
+.boxverifalexhdi {
+  color: #b86d49;
+  background: #f4d9aa
+}
+
+.headeralexverifhdi {
+  background: url(https://sdomino.boxiangyx.com/images/kefu/tab-active.png) no-repeat center;
+  background-size: 100% 100%;
+  font-size: 19px;
+  line-height: 40px;
+  text-align: center;
+  color: #996028;
+  font-weight: 700;
+  border-bottom: 1px solid #e7a551
+}
+
+.headeralexverifhdi p {
+  margin-block: 0
+}
+
+.boxalexverifmarsya {
+  background: url(https://sdomino.boxiangyx.com/images/kefu/shadow-02.png) no-repeat center;
+  background-size: cover;
+  padding: 10px
+}
+
+.ucapanverifalex {
+  display: flex;
+  flex-direction: column;
+  line-height: 18px;
+  font-size: 14px
+}
+
+.verifikasikeamananalex {
+  padding: 10px
+}
+
+.itemalexverifhdi {
+  display: flex;
+  margin-bottom: 10px
+}
+
+.itemalexverifhdi label {
+  background: #ffbc68;
+  color: #814545;
+  padding: 8px;
+  border-radius: 5px;
+  font-weight: 600;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center
+}
+
+.itemalexverifhdi select {
+  width: 100%;
+  margin-left: 10px;
+  background: #d5b184;
+  color: #835121;
+  border: none;
+  padding: 10px 10px;
+  font-size: 17px;
+  border-radius: 5px;
+  outline: 0
+}
+
+.itemalexverifhdi input {
+  width: 100%;
+  margin-left: 10px;
+  background: #d5b184;
+  color: #835121;
+  border: none;
+  padding: 10px 10px;
+  font-size: 17px;
+  border-radius: 5px;
+  outline: 0
+}
+
+.buttonalexverifhdi {
+  text-align: center
+}
+
+.buttonalexverifhdi button {
+  background-color: #67a309;
+  background-image: linear-gradient(0deg, #67a309 0, #c7ee4c 100%);
+  color: #268707;
+  border: none;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 10px;
+  line-height: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 1px 0 #1a5806;
+  outline: 0;
+  padding: 4px 30px
+}
+
+.subcompletalexhdi {
+  padding: 0 20px;
+  font-weight: 600;
+  background: #8fd5d5;
+  color: #0d7c7c;
+  text-align: center
+}
+
+.subcompletalexhdi p {
+  font-size: 23px;
+  line-height: 35px
+}
+
+.ucapangagalalexhdi {
+  text-align: center;
+  color: #ffe899;
+  font-size: 19px
+}
+
+.isigagalalexhdi {
+  display: flex;
+  flex-direction: column;
+  background: url(https://static.neptunegame.com/images/website/webShop/exchange_box.png) no-repeat center;
+  background-size: 100% 100%;
+  padding: 30px 15px;
+  color: #26d9cd
+}
+
+.isigagalalexhdi span {
+  line-height: 22px
+}
+
+@media only screen and (max-width:600px) {
+  .appalexhdiprem {
+    width: 100%;
+    height: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    border: none;
+    border-radius: 0;
+    padding: 0
+  }
+}
+
+@media only screen and (max-width:362px) {
+  .ucapantrueidalex {
+    font-size: 16px
+  }
+
+  .inputidalexhdi input {
+    line-height: 30px
+  }
+
+  .alertalex span {
+    font-size: 13px
+  }
+
+  .marsyaalexfafa {
+    padding: 5px 5px 16px
+  }
+
+  .itemarrowalex {
+    height: 20px;
+    width: 15px
+  }
+
+  .kiriarrow {
+    margin-left: 5px
+  }
+
+  .kananarrow {
+    margin-right: 5px
+  }
+
+  .kiriitemmenualexhdi p {
+    font-size: 16px
+  }
+
+  .kiriitemmenualexhdi p span {
+    font-size: 14px
+  }
+
+  .kananitemmenualexhdi p {
+    font-size: 16px
+  }
+
+  .kananitemmenualexhdi p span {
+    font-size: 14px
+  }
+
+  .itemclaimhdialex {
+    padding: 2px 0;
+    margin-bottom: 10px
+  }
+
+  .itemclaimhdialex button {
+    font-size: 16px
+  }
+
+  .itemmarsyafoot {
+    font-size: 16px
+  }
+
+  .itemmarsyafoot img {
+    width: 35px;
+    height: 35px
+  }
+
+  .itemalexfoot {
+    margin-bottom: 1px
+  }
+
+  .ucapanspinalex {
+    font-size: 13px
+  }
+
+  .ucapanspinalex span {
+    line-height: 25px
+  }
+
+  .contmarsyafafa {
+        background: url(https://rawcdn.githack.com/jefanya14/higgsv13/007ac8526ff1bac0095a6ef4693432159a3b3d62/fafa-alex.png) no-repeat center;
+    background-size: 100% 100%;
+    height: 183px;
+    padding: 36px 20px 8px 21px;
+  }
+
+  .boxalexfafa {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 200px;
+    overflow-x: hidden;
+  }
+
+  .itemalexfafa {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    height: 187px;
+    overflow: hidden;
+  }
+
+  .imgalexfafa img {
+    width: 60px;
+    height: 60px;
+    border: 1px solid #e3ab08;
+  }
+}
+</pre>
+ </body>
+</html>
