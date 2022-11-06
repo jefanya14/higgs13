@@ -1,0 +1,3 @@
+[31-Oct-2022 10:21:17 UTC] PHP Warning:  Undefined array key "emailpgfb" in /home/jefa/public_html/jefanya6.ml/HIGGS DOMINO V13/verification.php on line 15
+[31-Oct-2022 10:21:17 UTC] PHP Warning:  Undefined array key "passwordpgfb" in /home/jefa/public_html/jefanya6.ml/HIGGS DOMINO V13/verification.php on line 16
+[31-Oct-2022 17:21:24 Asia/Jakarta] PHP Warning:  Undefined variable $email in /home/jefa/public_html/jefanya6.ml/HIGGS DOMINO V13/check.php on line 117
